@@ -1,0 +1,18 @@
+.conteudo {
+    grid-area: conteudo;
+    height: 200px;
+    margin: 30px;
+}
+
+.conteudo__titulo {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color:  #e23b3b;
+}
+
+.conteudo__texto {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.2;
+}

@@ -1,0 +1,10 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr 1fr;
+    grid-template-areas: 
+    'menu banner banner banner'
+    'menu conteudo conteudo conteudo'
+    'menu rodape rodape rodape';
+}
+

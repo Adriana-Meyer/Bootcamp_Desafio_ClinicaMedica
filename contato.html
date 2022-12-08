@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica - Contato</title>
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Arquivos CSS-->
+    
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/menu.css" />   
+    <link rel="stylesheet" href="./assets/css/conteudo.css" />   
+    <link rel="stylesheet" href="./assets/css/rodape.css" />   
+    <link rel="stylesheet" href="./assets/css/reset.css" />   
+    <link rel="stylesheet" href="./assets/css/global.css" /> 
+</head>
+
+<body>
+    
+    <header class="header">
+        <img class="header__banner" src="./assets/img/banner-contato.png" />
+
+    </header>
+
+    <div class="menu">
+        <img class="menu__logo" src="./assets/img/logo.png" alt="logo da clínica" />
+        <nav>
+            <ul class="menu__lista">
+                <li class="menu__item"><a class="menu__link" href="./index.html">Página Principal</a></li>
+                <li class="menu__item"><a class="menu__link" href="./sobre.html">Sobre a clínica</a></li>
+                <li class="menu__item"><a class="menu__link" href="./horarios.html">Horário de Atendimento</a></li>
+                <li class="menu__item"><a class="menu__link" href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main class="conteudo">
+        <h1 class="conteudo__titulo">Agende sua consulta!</h1>
+
+        <div class="conteudo__infoContato">
+            <div>
+                <h3 class="conteudo__tituloSecundario">Telefones</h3>
+                <p class="conteudo__texto">Telefone: (11) 3456-7890</p>
+                <p class="conteudo__texto">Whatsapp: (11) 98765-4321</p>
+                <h3 class="conteudo__tituloSecundario">Endereço</h3>
+                <p class="conteudo__texto">Unidade Tatuapé - Rua Fulano Ciclano, 1234 - Tatuapé - São Paulo/SP</p>
+            </div>
+            <iframe class="conteudo__mapa" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6331.750998836379!2d-46.578212450642994!3d-23.543188732271442!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1670527798636!5m2!1spt-BR!2sbr" width="620" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <section class="contato">
+            <h3 class="contato__titulo">Entre em contato conosco</h3>
+
+            <div class="contato__container">
+                <label class="contato__label" for="nome_completo">Nome completo</label>
+                <input class="contato__inputBox" type="text" name="nome" id="nome_completo" placeholder="Nome Completo">
+
+                <label class="contato__label" for="email">E-mail</label>
+                <input class="contato__inputBox" type="email" name="email" id="email" placeholder="seuEmail@email.com">
+
+                <label class="contato__label" for="assunto">Assunto</label>
+                <input class="contato__inputBox" type="text" name="assunto" id="assunto" placeholder="Agendamento de consulta">
+
+                <label class="contato__label" for="mensagem">Mensagem</label>
+                <textarea class="contato__inputBox mensagem" name="mensagem" id="mensagem" placeholder="Escreva sua mensagem aqui"></textarea>
+
+                <div class="contato__botoes"> 
+                    <button class="contato__botao">Limpar</button>
+                    <button class="contato__botao">Enviar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Informações</h2>
+        <p class="rodape__informacao"> Unidade Tatuapé - Rua Fulano Ciclano, 1234 - Tatuapé - São Paulo/SP</p>
+        <p class="rodape__informacao"> Telefone: (11) 3456-7890 | Whatsapp: (11) 98765-4321</p>
+        <a href="#" class="rodape__link"><img class="rodape__icone" src="./assets/img/facebook_icon.png" alt="página no facebook"></a>
+        <a href="#" class="rodape__link"><img class="rodape__icone" src="./assets/img/instagram_icon.png" alt="página no instagram"></a>
+        <a href="#" class="rodape__link"><img class="rodape__icone" src="./assets/img/whatsapp_icon.png" alt="contato do whatsapp"></a>
+        <a href="#" class="rodape__link"><img class="rodape__icone" src="./assets/img/youtube_icon.png" alt="canal no youtube"></a>
+        
+    </footer>
+
+</body>
+</html>

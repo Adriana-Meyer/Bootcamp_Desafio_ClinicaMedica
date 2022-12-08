@@ -1,7 +1,6 @@
 .conteudo {
     grid-area: conteudo;
-    height: 200px;
-    margin: 30px;
+    margin: 50px;
 }
 
 .conteudo__titulo {
@@ -15,4 +14,28 @@
     font-weight: 300;
     font-size: 18px;
     line-height: 1.2;
+    margin: 15px 0;
+}
+
+.tabela__titulo {
+    color: #e23b3b;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.conteudo__tabela,
+.tabela__cabecalho > th,
+.tabela__info > td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabela__cabecalho {
+    background-color: #e23b3b;
+    color: #ffffff;
+    font-weight: 700;
+    
 }

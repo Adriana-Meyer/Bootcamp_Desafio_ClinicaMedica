@@ -1,6 +1,12 @@
 .menu {
     background: #a82d2d;
     grid-area: menu;
+    
+}
+
+.menu__logo {
+    width: 50%;
+    margin: 10% 20% 10% 20%;
 }
 
 .menu__lista {

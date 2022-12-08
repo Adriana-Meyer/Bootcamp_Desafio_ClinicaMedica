@@ -1,17 +1,23 @@
 .rodape {
-    grid-area: rodape;
     background: #e23b3b;
     color: #ffffff;
+    grid-area: rodape;
+    padding: 10px 40px;
 }
 
 .rodape__titulo {
-    font-weight: 700;
     font-size: 16px;
-    margin: 15px;
+    font-weight: 700;
+    margin: 15px 0;
+    
 }
 
 .rodape__informacao {
     font-size: 14px;
     font-weight: 300;
-    margin: 8px 25px 8px 25px;
+    margin: 10px 0;
+}
+
+.rodape__icone {
+    width: 2.5rem;
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clínica - Home</title>
+    <title>Clínica - Horários de atendimento</title>
 
     <!-- Fonte -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +24,7 @@
 <body>
     
     <header class="header">
-        <img class="header__banner" src="./assets/img/banner-home.jpeg" />
+        <img class="header__banner" src="./assets/img/banner-horarios.png" />
 
     </header>
 
@@ -41,13 +41,45 @@
     </div>
 
     <main class="conteudo">
-        <h1 class="conteudo__titulo">Clínica Nutrição & Vida</h1>
+        <h1 class="conteudo__titulo">Horários de atendimento</h1>
         <p class="conteudo__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla possimus similique, hic architecto 
             enim itaque ex facere doloribus laudantium molestias animi in et nostrum dignissimos, debitis dolor
-            accusamus quas odio. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam repellat perspiciatis consequuntur 
-            iste, hic eaque mollitia quam accusamus deleniti doloremque quas ullam atque quo. Rerum, delectus! Aliquam placeat harum tempora!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod illo aut facilis exercitationem numquam? Hic provident rem, doloribus impedit, 
-            quas atque pariatur id, repudiandae harum repellendus dolores rerum nesciunt laborum!</p>
+            accusamus quas odio. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        
+        <table class="conteudo__tabela">
+            <h4 class="tabela__titulo"> Confira os horários disponíveis: </h4>
+
+            <tr class="tabela__cabecalho"> 
+                <th>Serviços</th>
+                <th>Segunda a Sexta</th>
+                <th>Sábados</th>
+                <th>Feriados</th>
+            </tr>
+            <tr class="tabela__info">
+                <td>Avaliação inicial</td>
+                <td>08h - 19h</td>
+                <td>08h - 14h</td>
+                <td>08h - 12h</td>
+            </tr>
+            <tr class="tabela__info">
+                <td>Consulta de acompanhamento</td>
+                <td>08h - 19h</td>
+                <td>08h - 14h</td>
+                <td>10h - 12h</td>
+            </tr>
+            <tr class="tabela__info">
+                <td>Bioimpedância</td>
+                <td>08h - 19h</td>
+                <td>08h - 14h</td>
+                <td>10h - 12h</td>
+            </tr>
+            <tr class="tabela__info">
+                <td>Exames gerais</td>
+                <td>07h - 19h</td>
+                <td>07h - 14h</td>
+                <td>-</td>
+            </tr>
+        </table>
     </main>
 
     <footer class="rodape">
